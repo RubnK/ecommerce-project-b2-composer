@@ -13,7 +13,7 @@ $router->map('GET', '/', 'MainController#home', 'home');
 $router->map('GET', '/catalogue', 'MainController#catalogue', 'catalogue');
 $router->map('GET', '/panier', 'MainController#panier', 'panier');
 $router->map('GET', '/login', 'MainController#login', 'login');
-$router->map('GET', '/signup', 'MainController#signup', 'signup');
+$router->map('GET', '/register', 'MainController#register', 'register');
 $router->map('GET', '/SoCode', 'MainController#socode', 'socode');
 $router->map('GET', '/SoManage', 'MainController#somanage', 'somanage');
 $router->map('GET', '/SoDraw', 'MainController#sodraw', 'sodraw');

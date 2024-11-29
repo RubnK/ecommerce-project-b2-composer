@@ -26,10 +26,10 @@ class MainController
         $this->render('login');
     }
 
-    // Page "Signup"
-    public function signup()
+    // Page "Register"
+    public function register()
     {
-        $this->render('signup');
+        $this->render('register');
     }
 
     // Page "SoCode"

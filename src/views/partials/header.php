@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="/css/catalogue.css">
     <?php } elseif ($_SERVER['REQUEST_URI'] == '/panier'){ ?>
     <link rel="stylesheet" href="/css/panier.css">
-    <?php } elseif ($_SERVER['REQUEST_URI'] == '/login'){ ?>
-    <link rel="stylesheet" href="/css/login.css">
-    <?php } elseif ($_SERVER['REQUEST_URI'] == '/signup'){ ?>
-    <link rel="stylesheet" href="/css/signup.css">
+    <?php } elseif ($_SERVER['REQUEST_URI'] == '/login' || $_SERVER['REQUEST_URI'] == '/register'){ ?>
+    <link rel="stylesheet" href="/css/logpage.css">
     <?php } elseif ($_SERVER['REQUEST_URI'] == '/SoCode' || $_SERVER['REQUEST_URI'] == '/SoManage' || $_SERVER['REQUEST_URI'] == '/SoDraw' || $_SERVER['REQUEST_URI'] == '/SoNote'){ ?>
     <link rel="stylesheet" href="/css/produit.css">
     <?php } ?>
