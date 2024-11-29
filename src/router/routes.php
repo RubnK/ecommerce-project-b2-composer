@@ -14,10 +14,10 @@ $router->map('GET', '/catalogue', 'MainController#catalogue', 'catalogue');
 $router->map('GET', '/panier', 'MainController#panier', 'panier');
 $router->map('GET', '/login', 'MainController#login', 'login');
 $router->map('GET', '/register', 'MainController#register', 'register');
-$router->map('GET', '/SoCode', 'MainController#socode', 'socode');
-$router->map('GET', '/SoManage', 'MainController#somanage', 'somanage');
-$router->map('GET', '/SoDraw', 'MainController#sodraw', 'sodraw');
-$router->map('GET', '/SoNote', 'MainController#sonote', 'sonote');
+$router->map('GET', '/catalogue/SoCode', 'MainController#socode', 'socode');
+$router->map('GET', '/catalogue/SoManage', 'MainController#somanage', 'somanage');
+$router->map('GET', '/catalogue/SoDraw', 'MainController#sodraw', 'sodraw');
+$router->map('GET', '/catalogue/SoNote', 'MainController#sonote', 'sonote');
 
 // Retourne l'objet router
 return $router;

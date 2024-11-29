@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/css/panier.css">
     <?php } elseif ($_SERVER['REQUEST_URI'] == '/login' || $_SERVER['REQUEST_URI'] == '/register'){ ?>
     <link rel="stylesheet" href="/css/logpage.css">
-    <?php } elseif ($_SERVER['REQUEST_URI'] == '/SoCode' || $_SERVER['REQUEST_URI'] == '/SoManage' || $_SERVER['REQUEST_URI'] == '/SoDraw' || $_SERVER['REQUEST_URI'] == '/SoNote'){ ?>
+    <?php } elseif ($_SERVER['REQUEST_URI'] == '/catalogue/SoCode' || $_SERVER['REQUEST_URI'] == '/catalogue/SoManage' || $_SERVER['REQUEST_URI'] == '/catalogue/SoDraw' || $_SERVER['REQUEST_URI'] == '/catalogue/SoNote'){ ?>
     <link rel="stylesheet" href="/css/produit.css">
     <?php } ?>
 
