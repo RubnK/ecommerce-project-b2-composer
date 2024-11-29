@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ececec;
+    color: #333;
+}
+
+/* Navbar */
+
+nav{
+    height: 60px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+    font-size: 18px;
+    top: 0;
+    z-index: 1100;
+    padding: 2px;
+    backdrop-filter: blur(10px);
+}
+nav .logo{
+    font-size: 50px;
+    color: #2746c2;
+    text-decoration: none;
+    margin-top: 2px;
+    font-weight: bold;
+    transition: all .2s linear;
+    height: 50px;
+}
+nav .logo:hover{
+    color: #333;
+}
+.nav{
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+nav .links{
+    
+    width: 30%;
+    font-size: 30px;
+}
+nav .icons{
+    width: 20%;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: #333;
+    transition: all .2s linear;
+    font-weight: bold;
+}
+nav ul a:hover{
+    color: #2746c2;
+}
+nav ul a svg{
+    fill: #333;
+    transition: all .2s linear;
+    width: 40px;
+    height: 40px;
+}
+nav ul a:hover svg{
+    fill: #2746c2;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #26272b;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.footer{
+    width: 55%;
+    margin: auto;
+    font-size: 14px;
+}
+footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+footer h2{
+    color:white;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about{
+    width: 55%;
+    color: #737373;
+}
+.about a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: bold;
+    transition: all .2s linear;
+}
+.about a:hover{
+    color: #2746c2;
+}
+.about-ql{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 5%;
+}
+.quick-links a{
+    text-decoration: none;
+    color: #737373;
+    transition: all .2s linear;
+}
+.quick-links a:hover{
+    text-decoration: none;
+    color: #2746c2;
+    cursor: pointer;
+}
+.quick-links{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    font-size: 1rem;
+    color: #737373;
+    margin-top: .5rem;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+.socials a{
+    margin-left: .5rem;
+    color: #737373;
+    background-color: #33353d;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    transition: all .2s linear;
+}
+.socials a:hover{
+    color:white;
+}
+.linkedin:hover{
+    background-color: #0270ad;
+}
+.discord:hover{
+    background-color: #6f84d4;
+}
+.github:hover{
+    background-color: #1b1f23;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease;
+}
+.contact a:hover{
+    color: #999999;
+}
