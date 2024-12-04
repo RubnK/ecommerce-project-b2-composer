@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>SoTech</title>
     <link rel="stylesheet" href="/css/utils.css">
     <?php if ($_SERVER['REQUEST_URI'] == '/'){ ?>
     <link rel="stylesheet" href="/css/home.css">
